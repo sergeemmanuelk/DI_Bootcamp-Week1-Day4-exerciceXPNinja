@@ -1,3 +1,159 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background-color-primary {
+    background-color: #8BC03C;
+}
+
+.text-color-primary {
+    color: #8BC03C;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../images/hero.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+
+nav {
+    height: 50px;
+}
+
+.navbar-brand {
+    font-size: 18px;
+}
+
+.navbar-brand span {
+    color: #8BC03C;
+    font-size: 12px;
+}
+
+.nav-link,
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+    border-bottom: 2px solid #8BC03C;
+}
+
+.menu-item-login:hover {
+    color: white;
+    font-weight: bold;
+    border-bottom: none;
+}
+
+.text-header {
+    text-align: center;
+    height: 450px;
+}
+
+.active-menu {
+    border-bottom: 2px solid #8BC03C;
+}
+
+.text-header h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-header p {
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+}
+
+.text-header p span {
+    color: #8BC03C;
+}
+
+.btn-primary {
+    background-color: #8BC03C;
+    color: white;
+    border: none;
+    width: 150px;
+}
+
+.section-green {
+    background-color: #8BC03C;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    border-right: 1px solid white;
+}
+
+.section-green i {
+    font-size: 40px;
+}
+
+.divider {
+    border: 1px solid white;
+    width: 30px;
+}
+
+.divider-section {
+    border: 1px solid grey;
+    width: 30px;
+}
+
+.table{
+    color: grey;
+}
+
+thead th {
+    border-bottom: 5px solid grey;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: #f6f6f6;
+}
+
+footer h4{
+    font-size: 14px;
+}
+footer h4 i{
+    font-size: 20px;
+    color: #8BC03C;
+}
+footer p{
+    font-size: 12px;
+    color: grey;
+}
+
+@media screen and (max-width: 768px) {
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .navbar-toggler {
+        border-color: rgb(255, 255, 255);
+    }
+
+    .navbar-collapse{
+        background-color: #8BC03C;
+        padding-left: 20px;
+    }
+
+    .form-control, .form-select{
+        margin-bottom: 10px;
+    }
+
+    .content{
+        border-right: none;
+        border-bottom: 1px solid #8BC03C;
+    }
 }
